@@ -1,0 +1,23 @@
+<div class="rt">
+    <input class="input"
+     type="text"
+      placeholder="Name"
+      [(ngModel)]="title"
+           #titleInput
+    >
+
+    <input  class="input"
+     type="text"
+      placeholder="Description"
+       [(ngModel)]="text">
+
+  <input  class="input"
+          type="number"
+          placeholder="Price"
+          [(ngModel)]="price">
+  <div class="doll">$</div>
+  <button class="btn" (click)="addPost()">Add</button>
+
+</div>
+
+

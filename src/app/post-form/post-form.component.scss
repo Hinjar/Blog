@@ -1,0 +1,61 @@
+.rt{
+    display: flex;
+    margin: 0 auto;
+    max-width: 1400px;
+    text-align: left;
+    margin-bottom: 20px;
+  white-space: nowrap;
+}
+
+.ty{
+    border: 2px solid gray;
+}
+.btn{
+    border: none;
+    background: rgb(89, 151, 209);
+    color: #ffff;
+    cursor: pointer;
+    
+    transition:  color .2s linear;
+  margin-right: 25px;
+  padding: 0 15px 0 15px;
+}
+
+.btn:hover{
+    transition: opacity .2s linear;
+  opacity: 0.8;
+
+}
+
+.input{
+    width: 15%;
+    border: 1px solid rgb(226, 226, 226);
+    height: 27px;
+   
+}
+
+.output{
+  height: 50px;
+}
+
+.message{
+  margin: 0 auto;
+max-width: 15%;
+  padding: 1rem;
+
+  color: aliceblue;
+}
+
+.red{
+  background: red;
+}
+
+.green{
+  background: green;
+}
+
+.doll{
+  margin-top: 0px;
+  padding: 5px 10px 1px 10px;
+  background: rgb(207, 207, 207);
+}
